@@ -11,5 +11,5 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 
 
 async def async_setup_entry(hass: HomeAssistant, entry) -> bool:
-    #et up from a config entry — not used here, but required for future-proofing.
+    #Set up from a config entry — not used here, but required for future-proofing.
     return True
