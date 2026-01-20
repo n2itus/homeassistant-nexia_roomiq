@@ -42,12 +42,12 @@ Create a new folder: `/config/custom_components/nexia_roomiq/`
 
 ### Step 3: Copy the 4 Required Files
 
-Create these 4 files inside `/config/custom_components/nexia_roomiq/`:
+Create/copy these 4 files inside `/config/custom_components/nexia_roomiq/`:
 
-1. **`__init__.py`** - Copy content from the "__init__.py" artifact
-2. **`const.py`** - Copy content from the "const.py" artifact  
-3. **`manifest.json`** - Copy content from the "manifest.json" artifact
-4. **`sensor.py`** - Copy content from the "sensor.py" artifact
+1. **`__init__.py`**
+2. **`const.py`** 
+3. **`manifest.json`**
+4. **`sensor.py`**
 
 
 ### Step 4: Verify Directory Structure
@@ -94,7 +94,7 @@ After Home Assistant restarts:
 
 1. Go to **Settings → Devices & Services**
 2. Click on **Nexia** integration
-3. Click on your zone device (e.g., "Downstairs NativeZone")
+3. Click on your zone device (e.g., "Thermostat 1 NativeZone")
 4. You should see your new Room IQ sensors
 
 The sensors will update every 2 minutes with fresh data from your thermostat!
