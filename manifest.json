@@ -2,7 +2,7 @@
   "domain": "nexia_roomiq",
   "name": "Nexia Room IQ Sensors",
   "codeowners": ["@n2itus"],
-  "config_flow": false",
+  "config_flow": false,
   "dependencies": ["nexia"],
   "documentation": "https://github.com/n2itus/homeassistant-nexia_roomiq",
   "iot_class": "cloud_polling",
